@@ -12,3 +12,10 @@ Partitionierung verbessert die Leistung, da nur relevante Daten verarbeitet werd
 
 3. Storage Engine in einer Datenbank
 Eine Storage Engine in einer Datenbank ist die Softwarekomponente, die für das Speichern, Abrufen und Verwalten von Daten verantwortlich ist. Jede Storage Engine hat ihre eigenen Methoden und Optimierungen für den Umgang mit Daten.
+
+Synchronisationsergebnis von anderer Aufg
+Nach der Synchronisation mit MySQL Workbench sollten die Änderungen in der physischen Datenbank widerspiegeln:
+
+Die Tabelle tbl_MA wird erstellt.
+Das neue Attribut Email wird zur Tabelle tbl_fahrer hinzugefügt.
+Die Foreign Key-Beziehung zwischen tbl_fahrer und tbl_MA wird eingerichtet.
