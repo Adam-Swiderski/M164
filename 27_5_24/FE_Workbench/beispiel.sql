@@ -8,7 +8,7 @@ CREATE TABLE Person (
 CREATE TABLE Kleidungsstück (
     Kleidungsstück_ID INT PRIMARY KEY AUTO_INCREMENT,
     Bezeichnung VARCHAR(50),
-    Größe VARCHAR(10),
+    Grösse VARCHAR(10),
     Farbe VARCHAR(20)
 ) DEFAULT CHARSET=utf8mb4;
 
