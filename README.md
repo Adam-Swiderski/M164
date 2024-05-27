@@ -8,7 +8,7 @@ Die Datenbankmodellierung nach dem Attributkonzept ordnet Attribute mit ihren Au
 Die Lösung besteht darin, die gemeinsamen Attribute in einem allgemeinen Entitätstypen zusammenzufassen (Generalisierung), während die nicht gemeinsamen Attribute in den spezifischen Entitätstypen verbleiben (Spezialisierung). Um Informationsverlust zu vermeiden, müssen die Datensätze der spezialisierten Tabellen über Fremdschlüssel auf die generalisierten Tabellen verweisen. Diese Beziehung wird als „is-a“-Beziehung bezeichnet: eine Person ist ein Fahrer.
 
 
-Fahrzeug -> auto | motorrad
-Sport -> fussball | basketball
-Früchte -> erdbeeren | Bananen
-Lebewesen -> Menschen | Fische
+Fahrzeug -> auto | motorrad          
+Sport -> fussball | basketball              
+Früchte -> erdbeeren | Bananen           
+Lebewesen -> Menschen | Fische        
