@@ -36,3 +36,4 @@ In Datenbanken unterscheidet man zwischen Identifying und Non-Identifying Bezieh
 1. **Kein gleichzeitiger Zugriff erforderlich**: Wenn kein gleichzeitiger Zugriff durch mehrere Benutzer notwendig ist.
 2. **Feste Echtzeitanforderungen**: Wenn feste Echtzeitanforderungen bestehen, die ein DBMS nicht ohne weiteres erfüllen kann.
 3. **Einfache und wohldefinierte Daten**: Für Daten und Anwendungen, die einfach und wohldefiniert sind und keine Änderungen unterliegen.
+![image](https://github.com/Adam-Swiderski/M164/assets/143395035/ba663c40-9af2-49f0-926e-3fa2d431bdc7)
