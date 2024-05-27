@@ -1,4 +1,3 @@
-
 ### Neue Befehle:
 
 ALTER TABLE Befehle zur Modifikation bestehender Tabellen.
