@@ -12,3 +12,8 @@ Fahrzeug -> auto | motorrad
 Sport -> fussball | basketball              
 Früchte -> erdbeeren | Bananen           
 Lebewesen -> Menschen | Fische        
+
+## Identifying / Non-Identifying relationship
+### Zusammenfassung:
+In Datenbanken unterscheidet man zwischen Identifying und Non-Identifying Beziehungen. Diese Begriffe beziehen sich darauf, wie der Primary Key der Child-Tabelle (Kind-Tabelle) zusammengesetzt ist und welche Rolle der Foreign Key (Fremdschlüssel) dabei spielt.
+
