@@ -1,0 +1,16 @@
+| Datentyp                           | MariaDB (MySQL)           | Beispiel        | Bemerkung / Einstellungen                      |
+|------------------------------------|---------------------------|-----------------|------------------------------------------------|
+| Ganze Zahlen                       | INT                       | 42              |                                                 |
+| Natürliche Zahlen                  | UNSIGNED INT              | 42              | Nur positive Werte                              |
+| Festkommazahlen (Dezimalzahlen)    | DECIMAL(M,D)              | DECIMAL(6,2)    | 1234.56 <br>M=Gesamte Anzahl Stellen <br>D=Nachkommastellen |
+| Aufzählungstypen                   | ENUM                      | ENUM('M','F')   | ENUM('M','F')                                  |
+| Boolean (logische Werte)           | TINYINT(1)                | 0, 1            | TRUE (1) oder FALSE (0)                        |
+| Zeichen (einzelnes Zeichen)        | CHAR(1)                   | 'A'             |                                                 |
+| Gleitkommazahlen                   | FLOAT, DOUBLE             | 3.14            |                                                 |
+| Zeichenkette fester Länge          | CHAR(N)                   | CHAR(10)        | Zeichenkette mit fester Länge N                |
+| Zeichenkette variabler Länge       | VARCHAR(N)                | VARCHAR(255)    | Zeichenkette mit maximaler Länge N             |
+| Datum und/oder Zeit                | DATE, TIME, DATETIME      | '2023-06-03'    |                                                 |
+| Zeitstempel                        | TIMESTAMP                 | CURRENT_TIMESTAMP | Automatisch aktualisierender Zeitstempel    |
+| Binäre Datenobjekte variabler Länge| BLOB, LONGBLOB            |                 | Binary Large Object                            |
+| Verbund                            | SET                       | SET('a','b')    | Menge von Werten                               |
+| JSON                               | JSON                      | {"key": "value"}|                                                 |
